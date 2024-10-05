@@ -21,18 +21,18 @@ namespace Repositories
 
         public async Task AddAsync(Category entity)
         {
-            await _context.AddAsync(entity);
+            await _context.Categories.AddAsync(entity);
             _context.SaveChanges();
         }
 
         public async Task DeleteAsync(int id)
         {
-            var entity = _context.Categories.FindAsync(id);
+            var entity = await _context.Categories.FindAsync(id);
             if (entity == null)
             {
                 throw new ArgumentException("Id Bulunamadı");
             }
-            _context.Remove(entity);
+            _context.Categories.Remove(entity);
             await _context.SaveChangesAsync();
         }
 

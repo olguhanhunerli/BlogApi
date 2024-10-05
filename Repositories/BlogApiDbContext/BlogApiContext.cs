@@ -16,7 +16,7 @@ namespace Repositories.BlogApiDbContext
         public DbSet<Users> Users { get; set; }
         public DbSet<Assets> Assets { get; set; }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<BlogPost> BlogPost { get; set; }
+        public DbSet<BlogPost> BlogPosts { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -28,9 +28,17 @@ namespace Repositories.BlogApiDbContext
             modelBuilder.Entity<Category>()
                 .HasMany(b=> b.BlogPosts)
                 .WithOne(a => a.Category)
-                .HasForeignKey(b=> b.CategoryId)
+                .HasForeignKey(b => b.CategoryId)
                 .OnDelete(DeleteBehavior.Cascade);
- 
+            modelBuilder.Entity<Assets>(entity =>
+            {
+                entity.HasKey(a => a.AssetId); 
+                entity.HasOne(a => a.BlogPost)
+                      .WithMany(b => b.Assets)
+                      .HasForeignKey(a => a.BlogPostId);
+
+                
+            });
         }
         
     }

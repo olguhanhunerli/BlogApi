@@ -33,7 +33,8 @@ namespace BlogApi.ServicesExtensions
             services.AddScoped<IPasswordHasher<Users>, PasswordHasher<Users>>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<ICategoryService, CategoryServices>();
-
+            services.AddScoped<IBlogPostRepository, BlogPostsRepository>();
+            services.AddScoped<IBlogPostService, BlogPostService>();
 
         }
     }

@@ -22,12 +22,13 @@ namespace Services
         public async Task AddCategoryAsync(Category category)
         {
             await _context.AddAsync(category);
+           
             
         }
 
         public async Task DeleteCategoryAsync(int id)
         {
-          _context.DeleteAsync(id);
+            await _context.DeleteAsync(id);
             
         }
 
