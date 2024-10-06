@@ -26,18 +26,16 @@ namespace Repositories.BlogApiDbContext
                 .HasForeignKey(a => a.BlogPostId)
                 .OnDelete(DeleteBehavior.Cascade);
             modelBuilder.Entity<Category>()
-                .HasMany(b=> b.BlogPosts)
+                .HasMany(b => b.BlogPosts)
                 .WithOne(a => a.Category)
                 .HasForeignKey(b => b.CategoryId)
                 .OnDelete(DeleteBehavior.Cascade);
             modelBuilder.Entity<Assets>(entity =>
             {
-                entity.HasKey(a => a.AssetId); 
+                entity.HasKey(a => a.AssetId);
                 entity.HasOne(a => a.BlogPost)
                       .WithMany(b => b.Assets)
                       .HasForeignKey(a => a.BlogPostId);
-
-                
             });
         }
         

@@ -34,14 +34,16 @@ namespace Services
             }
 
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes("YourVerySecretKeyThatIsLongerThanUsual");
+            var key = Encoding.ASCII.GetBytes("xC4V9uN7RcYQn2H8Zp1Fj3Sg5Lk8Bq6R");
             var tokenDescriptor = new SecurityTokenDescriptor
             {
-                Subject = new ClaimsIdentity(new Claim[]
+                Subject = new ClaimsIdentity(new[]
                 {
-                    new Claim(ClaimTypes.Name, user.Username)
+                    new Claim("sub", user.Id.ToString())
                 }),
                 Expires = DateTime.UtcNow.AddHours(1),
+                Issuer = "yourIssuer",  
+                Audience = "yourAudience",
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
             var token = tokenHandler.CreateToken(tokenDescriptor);

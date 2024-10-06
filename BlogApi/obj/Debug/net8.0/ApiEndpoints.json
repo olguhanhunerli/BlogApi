@@ -33,6 +33,22 @@
   },
   {
     "ContainingType": "Presentation.Controller.BlogPostController",
+    "Method": "AddBlogPost",
+    "RelativePath": "api/BlogPost/AddBlogPost",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blogPostDto",
+        "Type": "Entities.DTO.BlogPostDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controller.BlogPostController",
     "Method": "GetAllPosts",
     "RelativePath": "api/BlogPost/GetAllPosts",
     "HttpMethod": "GET",

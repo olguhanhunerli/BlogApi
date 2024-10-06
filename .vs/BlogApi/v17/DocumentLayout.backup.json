@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C66CB971-50B5-488F-B507-B2455F4218AC}|Repositories\\Repositories.csproj|c:\\users\\olguhan\\documents\\github\\blogapi\\repositories\\blogapidbcontext\\blogapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C66CB971-50B5-488F-B507-B2455F4218AC}|Repositories\\Repositories.csproj|solutionrelative:repositories\\blogapidbcontext\\blogapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{88A6AD8B-F271-4ADA-BE1E-53435000B6BD}|Entities\\Entities.csproj|c:\\users\\olguhan\\documents\\github\\blogapi\\entities\\models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88A6AD8B-F271-4ADA-BE1E-53435000B6BD}|Entities\\Entities.csproj|solutionrelative:entities\\models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C66CB971-50B5-488F-B507-B2455F4218AC}|Repositories\\Repositories.csproj|c:\\users\\olguhan\\documents\\github\\blogapi\\repositories\\contract\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C66CB971-50B5-488F-B507-B2455F4218AC}|Repositories\\Repositories.csproj|solutionrelative:repositories\\contract\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{419B4A78-4E5A-4249-92E3-207727E09A68}|Services\\Services.csproj|c:\\users\\olguhan\\documents\\github\\blogapi\\services\\contract\\iblogpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{419B4A78-4E5A-4249-92E3-207727E09A68}|Services\\Services.csproj|solutionrelative:services\\contract\\iblogpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{419B4A78-4E5A-4249-92E3-207727E09A68}|Services\\Services.csproj|c:\\users\\olguhan\\documents\\github\\blogapi\\services\\blogpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{419B4A78-4E5A-4249-92E3-207727E09A68}|Services\\Services.csproj|solutionrelative:services\\blogpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88A6AD8B-F271-4ADA-BE1E-53435000B6BD}|Entities\\Entities.csproj|c:\\users\\olguhan\\documents\\github\\blogapi\\entities\\dto\\blogpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A6AD8B-F271-4ADA-BE1E-53435000B6BD}|Entities\\Entities.csproj|solutionrelative:entities\\dto\\blogpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A643ED0B-C327-42F1-871B-0F874AF01DBE}|Presentation\\Presentation.csproj|c:\\users\\olguhan\\documents\\github\\blogapi\\presentation\\controller\\blogpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A643ED0B-C327-42F1-871B-0F874AF01DBE}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controller\\blogpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C66CB971-50B5-488F-B507-B2455F4218AC}|Repositories\\Repositories.csproj|c:\\users\\olguhan\\documents\\github\\blogapi\\repositories\\blogpostsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C66CB971-50B5-488F-B507-B2455F4218AC}|Repositories\\Repositories.csproj|solutionrelative:repositories\\blogpostsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88A6AD8B-F271-4ADA-BE1E-53435000B6BD}|Entities\\Entities.csproj|c:\\users\\olguhan\\documents\\github\\blogapi\\entities\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A6AD8B-F271-4ADA-BE1E-53435000B6BD}|Entities\\Entities.csproj|solutionrelative:entities\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A6AD8B-F271-4ADA-BE1E-53435000B6BD}|Entities\\Entities.csproj|c:\\users\\olguhan\\documents\\github\\blogapi\\entities\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A6AD8B-F271-4ADA-BE1E-53435000B6BD}|Entities\\Entities.csproj|solutionrelative:entities\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A6AD8B-F271-4ADA-BE1E-53435000B6BD}|Entities\\Entities.csproj|c:\\users\\olguhan\\documents\\github\\blogapi\\entities\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A6AD8B-F271-4ADA-BE1E-53435000B6BD}|Entities\\Entities.csproj|solutionrelative:entities\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66CB971-50B5-488F-B507-B2455F4218AC}|Repositories\\Repositories.csproj|c:\\users\\olguhan\\documents\\github\\blogapi\\repositories\\blogapidbcontext\\blogapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C66CB971-50B5-488F-B507-B2455F4218AC}|Repositories\\Repositories.csproj|solutionrelative:repositories\\blogapidbcontext\\blogapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A6AD8B-F271-4ADA-BE1E-53435000B6BD}|Entities\\Entities.csproj|c:\\users\\olguhan\\documents\\github\\blogapi\\entities\\dto\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A6AD8B-F271-4ADA-BE1E-53435000B6BD}|Entities\\Entities.csproj|solutionrelative:entities\\dto\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,93 +50,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BlogPost.cs",
-              "DocumentMoniker": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Entities\\Models\\BlogPost.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\BlogPost.cs",
-              "ToolTip": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Entities\\Models\\BlogPost.cs",
-              "RelativeToolTip": "Entities\\Models\\BlogPost.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Entities\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Entities\\Models\\Users.cs",
+              "RelativeToolTip": "Entities\\Models\\Users.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T19:31:00.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BlogApiContext.cs",
-              "DocumentMoniker": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Repositories\\BlogApiDbContext\\BlogApiContext.cs",
-              "RelativeDocumentMoniker": "Repositories\\BlogApiDbContext\\BlogApiContext.cs",
-              "ToolTip": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Repositories\\BlogApiDbContext\\BlogApiContext.cs*",
-              "RelativeToolTip": "Repositories\\BlogApiDbContext\\BlogApiContext.cs*",
-              "ViewState": "AgIAABEAAAAAAAAAAAAwwBoAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T19:29:20.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BlogPostsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Repositories\\BlogPostsRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\BlogPostsRepository.cs",
-              "ToolTip": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Repositories\\BlogPostsRepository.cs",
-              "RelativeToolTip": "Repositories\\BlogPostsRepository.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAtwBAAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T19:20:51.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BlogPostController.cs",
-              "DocumentMoniker": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Presentation\\Controller\\BlogPostController.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controller\\BlogPostController.cs",
-              "ToolTip": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Presentation\\Controller\\BlogPostController.cs",
-              "RelativeToolTip": "Presentation\\Controller\\BlogPostController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T19:17:39.445Z",
+              "WhenOpened": "2024-10-06T18:36:51.911Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BlogPostService.cs",
-              "DocumentMoniker": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Services\\BlogPostService.cs",
-              "RelativeDocumentMoniker": "Services\\BlogPostService.cs",
-              "ToolTip": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Services\\BlogPostService.cs",
-              "RelativeToolTip": "Services\\BlogPostService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAYwCIAAAAJAAAAAAAAAA==",
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Entities\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Entities\\Models\\Category.cs",
+              "RelativeToolTip": "Entities\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T19:13:57.476Z",
+              "WhenOpened": "2024-10-06T18:36:51.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IBlogPostService.cs",
-              "DocumentMoniker": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Services\\Contract\\IBlogPostService.cs",
-              "RelativeDocumentMoniker": "Services\\Contract\\IBlogPostService.cs",
-              "ToolTip": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Services\\Contract\\IBlogPostService.cs",
-              "RelativeToolTip": "Services\\Contract\\IBlogPostService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "BlogPost.cs",
+              "DocumentMoniker": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Entities\\Models\\BlogPost.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\BlogPost.cs",
+              "ToolTip": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Entities\\Models\\BlogPost.cs",
+              "RelativeToolTip": "Entities\\Models\\BlogPost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T19:12:39.717Z",
+              "WhenOpened": "2024-10-06T18:32:16.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Entities\\DTO\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "Entities\\DTO\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Entities\\DTO\\CategoryDto.cs",
+              "RelativeToolTip": "Entities\\DTO\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T18:32:08.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BlogApiContext.cs",
+              "DocumentMoniker": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Repositories\\BlogApiDbContext\\BlogApiContext.cs",
+              "RelativeDocumentMoniker": "Repositories\\BlogApiDbContext\\BlogApiContext.cs",
+              "ToolTip": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Repositories\\BlogApiDbContext\\BlogApiContext.cs",
+              "RelativeToolTip": "Repositories\\BlogApiDbContext\\BlogApiContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwCAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T18:31:31.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlogPostDto.cs",
+              "DocumentMoniker": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Entities\\DTO\\BlogPostDto.cs",
+              "RelativeDocumentMoniker": "Entities\\DTO\\BlogPostDto.cs",
+              "ToolTip": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Entities\\DTO\\BlogPostDto.cs",
+              "RelativeToolTip": "Entities\\DTO\\BlogPostDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T18:27:20.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Entities\\DTO\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "Entities\\DTO\\UserLoginDto.cs",
+              "ToolTip": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Entities\\DTO\\UserLoginDto.cs",
+              "RelativeToolTip": "Entities\\DTO\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T18:24:39.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IBlogPostRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Repositories\\Contract\\IBlogPostRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Contract\\IBlogPostRepository.cs",
-              "ToolTip": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Repositories\\Contract\\IBlogPostRepository.cs",
-              "RelativeToolTip": "Repositories\\Contract\\IBlogPostRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Title": "BlogPostController.cs",
+              "DocumentMoniker": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Presentation\\Controller\\BlogPostController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controller\\BlogPostController.cs",
+              "ToolTip": "C:\\Users\\Olguhan\\Documents\\GitHub\\BlogApi\\Presentation\\Controller\\BlogPostController.cs",
+              "RelativeToolTip": "Presentation\\Controller\\BlogPostController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAvwDMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T18:42:11.087Z",
+              "WhenOpened": "2024-10-06T17:20:19.8Z",
               "EditorCaption": ""
             }
           ]

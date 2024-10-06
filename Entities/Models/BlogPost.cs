@@ -11,8 +11,8 @@ namespace Entities.Models
         public int BlogPostId { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
-        public Users Id { get; set; }
-        public DateTime CreateDate { get; set; } = DateTime.Now;
+        public Users UserId { get; set; }
+        public DateTime CreateDate { get; set; } = DateTime.UtcNow;
         public int  CategoryId { get; set; }
         public Category Category { get; set; }
         public List<Assets> Assets { get; set; }

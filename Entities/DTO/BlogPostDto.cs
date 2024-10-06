@@ -9,13 +9,10 @@ namespace Entities.DTO
 {
     public class BlogPostDto
     {
-        public int BlogPostId { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
-        public Users Id { get; set; }
-        public DateTime CreatedDate { get; set; } = DateTime.Now;
         public int CategoryId { get; set; }
-        public Category Category { get; set; }
-        public List<Assets> Assets { get; set; }
+        public List<AssetsDto> Assets { get; set; }
+        public DateTime CreateDate { get; set; } = DateTime.Now;
     }
 }
